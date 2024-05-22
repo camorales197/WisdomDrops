@@ -1,0 +1,18 @@
+model: GPT-4o
+
+prompt_template_curriculum:
+  system: You are an expert in creating detailed and structured educational curriculums.
+
+  user: |
+    Create a comprehensive curriculum to learn about {topic}. The curriculum should be divided into multiple sections, each focusing on key concepts and resources. The sections should include:
+    1. Introduction and Overview
+    2. Fundamental Concepts
+    3. Intermediate Topics
+    4. Advanced Topics
+    5. Practical Applications
+    6. Recommended Resources (Books, Online Courses, Articles)
+
+    Please provide a brief description for each section.
+
+
+
